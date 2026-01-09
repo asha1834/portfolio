@@ -406,3 +406,80 @@ footer {
   margin-top: 30px;
   flex-wrap: wrap;
 }
+/* =========================
+   MOBILE RESPONSIVE STYLES
+========================= */
+
+@media (max-width: 768px) {
+  /* HEADER */
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 5%;
+  }
+
+  nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 80px 5%;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr; /* 🔥 stack content */
+    text-align: center;
+  }
+
+  .hero-text {
+    align-items: center;
+  }
+
+  .hero-text h2,
+  .hero-text h3,
+  .hero-text p {
+    text-align: center; /* 🔥 mobile readability */
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 70px 5%;
+  }
+
+  /* PROJECTS */
+  .projects {
+    grid-template-columns: 1fr; /* 🔥 one card per row */
+  }
+
+  /* MODAL */
+  .modal-content {
+    max-width: 90%;
+    padding: 30px 25px;
+  }
+
+  /* CONTACT */
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
