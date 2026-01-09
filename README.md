@@ -4,7 +4,7 @@
 A personal portfolio website showcasing my projects, skills, and experience as a **Full Stack Developer**.  
 Designed with a modern UI, smooth interactions, and support for **dark & light themes**.
 
-🔗 **Live Website:** https://asha1834.github.io/<your-repo-name>/
+🔗 **Live Website:** https://asha1834.github.io/portfolio/
 
 ---
 
