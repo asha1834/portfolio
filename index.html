@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asha | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- SCROLL PROGRESS -->
+    <div id="progressBar"></div>
+
+    <!-- CURSOR GLOW -->
+    <div class="cursor-glow"></div>
+
+    <!-- HEADER -->
+    <header>
+      <h1>Asha<span class="accent-text"> Ramesh</span></h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle">🌙</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h2>Hi, I’m <span class="accent-text">Asha</span></h2>
+          <h3>Full Stack Developer</h3>
+          <p>
+            I design and build scalable, secure, and production-ready
+            applications with clean architecture and modern tech.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="files\RESUME.pdf" class="btn outline" download
+              >Download Resume</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images\profile pic asha.jpg" alt="Asha profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="reveal">
+      <h3>About Me</h3>
+      <p class="center-text">
+        Full-stack developer with hands-on experience in Java, Spring Boot,
+        Hibernate, and MySQL. Built secure, end-to-end web applications with
+        RESTful APIs, media handling, and role-based authentication. Strong in
+        backend architecture, database optimization, and clean code practices.
+        Actively seeking a software developer role to build scalable, real-world
+        solutions.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="reveal">
+      <h3>Skills</h3>
+      <div class="skills">
+        <div class="skill">Java</div>
+        <div class="skill">Spring Boot</div>
+        <div class="skill">Hibernate / JPA</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Git & GitHub</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal">
+      <h3>Projects</h3>
+      <div class="projects">
+        <div class="project-card" data-project="confession">
+          <h4>Anonymous Confession Wall</h4>
+          <img src="images\WallPage.jpeg" alt="Confession Wall" />
+
+          <p>Anonymous full-stack platform for dropping their thoughts</p>
+        </div>
+
+        <div class="project-card" data-project="iot">
+          <h4>IoT Fire Extinguishing Robot</h4>
+          <img src="images\Fire extin.jpg" alt="Fire Robot" />
+          <p>Autonomous fire-response robot.</p>
+        </div>
+
+        <div class="project-card" data-project="vision">
+          <h4>Real Time Object Detection</h4>
+          <img src="images\obj dec.jpg" alt="Object Detection" />
+          <p>Computer vision system using YOLO.</p>
+        </div>
+
+        <div class="project-card" data-project="tracker">
+          <h4>Smart Grocery Expense Tracker</h4>
+          <img src="images\Tracker front.png" alt="Grocery Tracker" />
+          <p>Family Based Expense Tracker</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal" id="projectModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <h4 id="modalTitle"></h4>
+        <p id="modalDesc"></p>
+
+        <div class="modal-actions">
+          <a id="githubLink" class="btn outline" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal contact">
+      <h3>Contact</h3>
+
+      <p class="center-text">
+        Interested in working together or have an opportunity? Feel free to
+        reach out.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:asha1834@gmail.com" class="btn primary">Email Me</a>
+        <a
+          href="https://github.com/asha1834"
+          target="_blank"
+          class="btn outline"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/r-asha-05a009270"
+          target="_blank"
+          class="btn outline"
+        >
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>© 2026 Asha • Built with ☕, motion & dark mode</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
