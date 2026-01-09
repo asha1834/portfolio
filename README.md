@@ -49,7 +49,7 @@ Designed with a modern UI, smooth interactions, and support for **dark & light t
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/asha1834/<your-repo-name>.git
+   git clone https://github.com/asha1834/portfolio.git
 ````
 
 2. Open the project folder
